@@ -13,7 +13,7 @@ public class Car {
     public void stop(){
         System.out.println("car was stopped");
     }
-    public void race(){
+    public void raceTimeDistance(){
         System.out.println((double)1000/maxSpeed);
     }
 

@@ -20,12 +20,12 @@ public class MainApp {
             bmv.maxSpeed = 240;
             bmv.drive();
             bmv.stop();
-            bmv.race();
+            bmv.raceTimeDistance();
 
             Car audi = new Car();
             audi.color ="red";
             audi.maxSpeed = 220;
-            audi.race();
+            audi.raceTimeDistance();
 
 
     }
