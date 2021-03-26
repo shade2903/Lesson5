@@ -1,4 +1,4 @@
-package com.company;
+package com.company.metods;
 // число int n [0, 1000000]
 //2^n = ? (вывести на экран!!!) - String
 
@@ -7,7 +7,7 @@ public class Main {
 //        System.out.println(sum(1,2,3,4,5,6,7,8,9,0,4564,9679,456,2));
 //        System.out.println(fact(12));
 //        System.out.println(fact2(5));
-        System.out.println(sumDigts(745));
+        System.out.println(sumDigits(745));
 
 
     }
@@ -67,11 +67,10 @@ public class Main {
     //...
     // 1%10 =1
     //1/10 =0
-    public static int sumDigts(int n){
+    public static int sumDigits(int n){
         if (n ==0) {
             return 0;
         }
-        return (n%10) +sumDigts(n/10);
-
+        return (n%10) +sumDigits(n/10);
     }
 }
